@@ -19,16 +19,31 @@ $(document).ready(function () {
 		if (page==loadedpage) {
 			
 			//$(".content").html('');
-			$(".content").slideUp('slow');
+			$(".content").fadeIn('slow');
 			loadedpage= '';
 		}
 		else{
 			//load new content		
-			$( ".content" ).load(page).slideDown('slow');	
+			$( ".content" ).load(page).fadeOut('slow');	
 			//keep track of loaded page
 			loadedpage = page;
 		}
-
 	});
+	
+	
+	//activate fancybox
+	$("a.group").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false,
+		    helpers : {
+				title: {
+					type: 'outside'
+				}
+			}
+	});
+	
 
 });	

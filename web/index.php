@@ -3,7 +3,8 @@
   <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-	
+	<link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 	<meta name="description" content="Jorge is a photographer, information technology specialist, self-proclaimed computer geek, and fan of the arts. Some of his passions are technology, visual arts, music, programming, Internet, online gaming, philosophy, science, and interesting." />
 	<meta property="og:title" content="Jorge Sepúlveda" />
 	<meta property="og:type" content="website" />
