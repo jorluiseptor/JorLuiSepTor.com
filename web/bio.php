@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about" class="content">
 	<p>
 	I'm a perfect person in beta version. Some bugs may be occur. I'm sometimes human. 
 	</p>
@@ -12,4 +12,5 @@
 	Jorge </br>
 	jorluiseptor (at) gmail (dot) com
 	</p>
+	<a class="various fancybox fancybox.iframe" href="http://www.flickr.com/photos/jorluiseptor/show/">Google maps (iframe)</a>
 </section>

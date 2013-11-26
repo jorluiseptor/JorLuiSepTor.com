@@ -18,13 +18,14 @@ $(document).ready(function () {
 		//if the same nav link was pressed again, then hide the content
 		if (page==loadedpage) {
 			
-			//$(".content").html('');
-			$(".content").fadeIn('slow');
+			//$(".content-placeholder").html('');
+			$(".content-placeholder").fadeOut('slow');
 			loadedpage= '';
 		}
 		else{
 			//load new content		
-			$( ".content" ).load(page).fadeOut('slow');	
+			$(".content-placeholder").load(page);
+			$(".content-placeholder").fadeIn('slow');	
 			//keep track of loaded page
 			loadedpage = page;
 		}
@@ -32,7 +33,7 @@ $(document).ready(function () {
 	
 	
 	//activate fancybox
-	$("a.group").fancybox({
+	$("a.group, a.fancybox").fancybox({
 		'transitionIn'	:	'elastic',
 		'transitionOut'	:	'elastic',
 		'speedIn'		:	600, 
