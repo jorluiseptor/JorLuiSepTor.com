@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="myApp">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+	<meta name="description" content="Jorge is a photographer, information technology specialist, self-proclaimed computer geek, and fan of the arts. Some of his passions are technology, visual arts, music, programming, Internet, online gaming, philosophy, science, and interesting." />
+	<meta property="og:title" content="Jorge Sepúlveda" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://jorluiseptor.com" />
+	<meta property="og:description" content="Jorge is a photographer, information technology specialist, self-proclaimed computer geek, and fan of the arts. Some of his passions are technology, visual arts, music, programming, Internet, online gaming, philosophy, science, and interesting." />
+	<title>Jorge Sepúlveda | Welcome</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	
+</head>
+<body>
+	
+	<nav class="top-bar" data-topbar role="navigation" ng-controller="NavigationController">
+
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href="#" ng-click="navCtrl.setTab(2)">Jorge Sepúlveda</a></h1>
+			</li>
+			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		</ul>
+
+		<section class="top-bar-section">
+			<!-- Right Nav Section -->
+			<ul class="right">
+				
+				<li class="has-dropdown">
+					<a href="#">Right Button Dropdown</a>
+					<ul class="dropdown">
+						<li><a href="#">First link in dropdown</a></li>
+						<li class="active"><a href="#">Active link in dropdown</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<!-- Left Nav Section -->
+			<ul class="left">
+				<li ng-class="{active: isActive('/bio')}"><a href="#/bio" >Bio</a></li>
+				<li ng-class="{active: isActive('/projects')}"><a href="#/projects">Projects</a></li>
+				<li ng-class="{active: isActive('/photography')}"><a href="#/photography">Photography</a></li>
+				<li ng-class="{active: isActive('/videos')}"><a href="#/videos">Videos</a></li>
+				<li ng-class="{active: isActive('/cv')}"><a href="#/cv">Curriculum Vitae</a></li>
+				<li ng-class="{active: isActive('/contact')}"><a href="#/contact">Contact Me</a></li>
+			</ul>
+		</section>
+	</nav>
+	
+	<div class="row">
+		<div class="large-6 columns" >
+
+			<div ng-view></div>
+			
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<script src="js/foundation.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script> 
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+
+	<script>
+		$(document).foundation();
+
+		//turns on the background image
+			//get random image
+			var images = ['background1.jpg'];
+			var selectedimg = images[Math.floor(Math.random() * images.length)];
+			$.backstretch("img/" + selectedimg);
+
+	</script>
+</body>
+</html>
