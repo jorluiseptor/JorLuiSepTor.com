@@ -1,0 +1,257 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jor",
+				"jorluiseptorApp"
+			],
+			[
+				"angu",
+				"angular-ui-router"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jorge/Documents/Projects/jorluiseptor/web/index.htm",
+		"/C/Users/jorge/Documents/Projects/jorluiseptor/web/js/app.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS.org-Tutorial/angular-phonecat/app/partials/phone-list.html",
+		"/C/Users/jorge/Documents/Projects/jorluiseptor/web/bio.php",
+		"/C/Users/jorge/Documents/Projects/AngularJS.org-Tutorial/angular-phonecat/app/index.html",
+		"/C/Users/jorge/Documents/Projects/jorluiseptor/web/index.php",
+		"/C/Users/jorge/Documents/Projects/jorluiseptor/web/js/source/angular-resource.min.js.map",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/view2/all-users.html",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/view2/selected-user.html",
+		"/C/Users/jorge/Documents/Projects/AngularJS/node_modules/bower/node_modules/.bin/opn",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/controllers.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/view1/view1.html",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/view2/view2.html",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/app.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/index.html",
+		"/C/Users/jorge/Documents/Projects/AngularJS/node_modules/bower/node_modules/mout/lang/createObject.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/node_modules/http-server/node_modules/optimist/test/_/argv.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/components/version/interpolate-filter.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/karma.conf.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/components/version/version_test.js",
+		"/C/Users/jorge/Documents/Projects/AngularJS/app/app.css"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"></",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jorluiseptor.com",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"view1",
+				"app\\view1\\view1.html"
+			],
+			[
+				"contr",
+				"app\\controllers.js"
+			],
+			[
+				"in",
+				"app\\index.html"
+			],
+			[
+				"app",
+				"app\\app.js"
+			],
+			[
+				"ind",
+				"app\\index.html"
+			],
+			[
+				"view",
+				"app\\view2\\view2.html"
+			],
+			[
+				"view2",
+				"app\\view2\\view2.html"
+			],
+			[
+				"con",
+				"app\\controllers.js"
+			],
+			[
+				"cont",
+				"app\\controllers.js"
+			],
+			[
+				"a",
+				"app\\app.js"
+			],
+			[
+				"inde",
+				"app\\index.html"
+			],
+			[
+				"view2h",
+				"app\\view2\\view2.html"
+			],
+			[
+				"app.js",
+				"app\\app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
