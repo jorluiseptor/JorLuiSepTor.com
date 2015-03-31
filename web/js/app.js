@@ -1,6 +1,7 @@
 var jorluiseptorApp = angular.module('jorluiseptorApp',[
 	'ngRoute',
-	'jorluiseptorControllers'
+	'jorluiseptorControllers',
+	'jorluiseptorServices'
 	]);
 
 
@@ -9,13 +10,20 @@ jorluiseptorApp.config(['$routeProvider', function($routeProvider){
 		$routeProvider.when('/bio',{
 			templateUrl:'bio.html',
 			controller:'BioController'
-		}).when('/projects',{
+		})
+		.when('/projects',{
 			templateUrl:'projects.html',
 			controller:'ProjectsController'
-		}).when('/photos',{
+		})
+		.when('/photos',{
 			templateUrl:'photography.html',
 			controller:'PhotographyController'
-		}).otherwise({
+		})
+		.when('/photos/:photoID', {
+			templateUrl:'photography.html',
+			controller:'PhotographyController'
+		})
+		.otherwise({
 			redirectTo:"/"
 		});
 
