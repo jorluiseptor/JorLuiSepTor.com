@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sali",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"angular ",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"paga",
+				"Package Control: Install Package"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"r",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wrap sel",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syntax",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"side bar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"synta hml",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 328.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"cd",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jorge/Documents/Projects/jorluiseptor/web/index.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app2/app.js",
+		"/C/Users/Jorge/Documents/Projects/jQuery/data.json",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/app.js",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/index.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app2/index.htm",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app2/controllers.js",
+		"/C/Users/Jorge/Documents/Projects/jQuery/index.htm",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/app.css",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/bower.json",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/view2/view2.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/view2/selected-user.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/view2/all-users.html",
+		"/C/Users/Jorge/Documents/Projects/jorluiseptor/web/js/main.js",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/controllers.js",
+		"/C/Users/Jorge/Documents/Projects/jorluiseptor/web/bower_components/angular-backstretch/README.md",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/view1/view1.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/node_modules/es6-iterator/valid-iterable.js",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/node_modules/bower/node_modules/mout/lang/createObject.js",
+		"/C/Users/Jorge/Documents/Projects/jorluiseptor/web/foundation-5.5.0/index.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/npm-debug.log",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/README.md",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/.bowerrc",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/node_modules/karma/node_modules/.bin/node-http-proxy",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/app/test.html",
+		"/C/Users/Jorge/Documents/Projects/AngularJS/LICENSE",
+		"/C/Users/Jorge/Documents/Projects/cantigas/database_export/mysql.cantigas.org_2014-09-16.sql",
+		"/C/Users/Jorge/Documents/Projects/NetworkClass/website/js/foundation/foundation.abide.js",
+		"/C/Users/Jorge/Documents/Projects/NetworkClass/website/humans.txt",
+		"/C/Users/Jorge/Documents/Projects/NetworkClass/website/js/foundation/foundation.interchange.js",
+		"/C/Users/Jorge/Documents/Projects/NetworkClass/website/nav.php",
+		"/C/Users/Jorge/Documents/Projects/NetworkClass/website/index.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/404.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/css/style.css",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/servicios.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/index.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/footer.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/bio.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/contacto.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/nav.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/recetas.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/.htaccess",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/notfound.php",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/css/foundation.css",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/js/foundation/foundation.reveal.js",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/js/foundation/foundation.abide.js",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/DiegoLuisChef.sublime-project",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/robots.txt",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/js/vendor/jquery.cookie.js",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/css/foundation.min.css",
+		"/C/Users/Jorge/Documents/Projects/DiegoLuisChef/website/js/vendor/fastclick.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation/foundation.tab.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/css/foundation.css",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/css/genericons/Genericons-Regular.otf",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/css/genericons/genericons.css",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/css/genericons/font/genericons-regular-webfont.svg",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/contacto.php",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation/foundation.tooltip.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation/foundation.topbar.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/servicios.php",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/includes/nav.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/functions.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/mail.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/contact.php",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/dulcinita.php",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/index.php",
+		"/C/Users/Jorge/AppData/Local/Microsoft/Windows/INetCache/IE/ICPE6EUZ/PANO_20140519_074522[1].jpg",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/css/genericons/COPYING.txt",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/css/normalize.css",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/includes/head.php",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/vendor/fastclick.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation/foundation.reveal.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/PayasaDulcinitaPR.sublime-project",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/footer.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/sitemap/sitemap.xml",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/humans.txt",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/header.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/services.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/index.php",
+		"/C/Users/Jorge/Documents/Projects/sobeorganic/carpet.php",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/vendor/jquery.cookie.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/humans.txt",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/vendor/placeholder.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation/foundation.interchange.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/includes/footer.php",
+		"/C/wamp/bin/apache/Apache2.4.4/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation.min.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/foundation/foundation.slider.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/js/vendor/jquery.js",
+		"/C/Users/Jorge/Documents/Projects/PayasaDulcinitaPR/img/.gitkeep",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"json",
+			"8",
+			" <",
+			"vicios",
+			"}",
+			"        <blockquote>\n          <em>\"El poeta con su pluma, el artista con su brocha, el cocinero con su cuchillo de cortar.\"</em>\n          </br>\n          Knife </br>\n          <cite>F.T. Cheng, 1954</cite>\n        </blockquote>",
+			">\n",
+			"h1",
+			"_blank",
+			"Contáctame",
+			"7deg)",
+			"(-7deg)",
+			"zoom",
+			"-7deg",
+			"th",
+			"1.5",
+			"<img",
+			"img",
+			"nachos",
+			"h2",
+			"palomitas",
+			"pull",
+			"2014-03-06",
+			"lastmod",
+			"		<lastmod>2014-03-25</lastmod>",
+			"payasadulcinitapr",
+			"?>  ",
+			"span",
+			"sobeorganic"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"app\\app.js"
+			],
+			[
+				"view",
+				"app\\view2\\view2.html"
+			],
+			[
+				"view2",
+				"app\\view2\\view2.html"
+			],
+			[
+				"cont",
+				"app\\controllers.js"
+			],
+			[
+				"npm",
+				"npm-debug.log"
+			],
+			[
+				"apps",
+				"app\\app.js"
+			],
+			[
+				"in",
+				"app\\index.html"
+			],
+			[
+				"app.js",
+				"app\\app.js"
+			],
+			[
+				"ap",
+				"app\\app.css"
+			],
+			[
+				"sty",
+				"css\\style.css"
+			],
+			[
+				"nav",
+				"nav.php"
+			],
+			[
+				"st",
+				"css\\style.css"
+			],
+			[
+				"bio",
+				"bio.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"con",
+				"contacto.php"
+			],
+			[
+				"dul",
+				"dulcinita.php"
+			],
+			[
+				"ser",
+				"servicios.php"
+			],
+			[
+				"foun",
+				"css\\foundation.css"
+			],
+			[
+				"fo",
+				"footer.php"
+			],
+			[
+				"funct",
+				"functions.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"css",
+				"css\\foundation.css"
+			],
+			[
+				"hu",
+				"humans.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Jorge\\Documents\\Projects\\PayasaDulcinitaPR\\PayasaDulcinitaPR.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

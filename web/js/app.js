@@ -13,7 +13,7 @@ jorluiseptorApp.config(['$routeProvider', function($routeProvider){
 		})
 		.when('/projects',{
 			templateUrl:'projects.html',
-			controller:'ProjectsController'
+			controller: 'ProjectsController'
 		})
 		.when('/photos',{
 			templateUrl:'photography.html',

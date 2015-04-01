@@ -7,7 +7,10 @@ jorluiseptorControllers.controller('BioController',['$scope',
 			console.log('BioController started.');
 	}]);
 
-
+jorluiseptorControllers.controller('ProjectsController',['$scope', 
+	function($scope){
+			console.log('ProjectsController started.');
+	}]);
 
 jorluiseptorControllers.controller('PhotographyController',['$scope','$routeParams', 
 	function($scope, $routeParams){
