@@ -1,10 +1,4 @@
 
 
-var jorluiseptorServices = angular.module('jorluiseptorServices', ['ngResource']);
+//var jorluiseptorServices = angular.module('jorluiseptorServices', ['$http']);
 
-jorluiseptorServices.factory('Photos', ['$resource',
-  function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
-    });
-  }]);

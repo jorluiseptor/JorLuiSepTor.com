@@ -1,7 +1,7 @@
 var jorluiseptorApp = angular.module('jorluiseptorApp',[
 	'ngRoute',
-	'jorluiseptorControllers',
-	'jorluiseptorServices'
+	'jorluiseptorControllers'
+	//'jorluiseptorServices'
 	]);
 
 
