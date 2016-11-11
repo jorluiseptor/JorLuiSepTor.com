@@ -5,11 +5,13 @@ import {RepoBrowserComponent} from './github/repo-browser/repo-browser.component
 import {RepoListComponent} from './github/repo-list/repo-list.component';
 import {RepoDetailComponent} from './github/repo-detail/repo-detail.component';
 
+//remember to add videos page connected to youtube
+
 export const rootRouterConfig: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'github', component: RepoBrowserComponent,
+  {path: 'github', component: RepoListComponent,
     children: [
       {path: '', component: RepoListComponent},
       {path: ':user', component: RepoListComponent,
