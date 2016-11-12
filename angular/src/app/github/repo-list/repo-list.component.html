@@ -2,7 +2,7 @@
 <ul>
 	<li *ngFor="let repo of repos | async">
     <span>poner git icon aqui</span>
-    <a [routerLink]="['/github', repo.owner.login, repo.name]">
+    <a [routerLink]="['/code', repo.owner.login, repo.name]">
         {{ repo.name }}
     </a>
     - <span class="description">{{ repo.description }}</span>
