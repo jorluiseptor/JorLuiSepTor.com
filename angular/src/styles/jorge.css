@@ -4,3 +4,9 @@ body {
 html {
        overflow-y: scroll;
 }
+/*align material icons*/
+.material-icons {
+    position: relative;
+    top: 2px;
+    font-size: inherit;
+}
