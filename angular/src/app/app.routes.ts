@@ -10,7 +10,8 @@ export const rootRouterConfig: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'github', component: RepoListComponent,
+  {path: 'github', 
+  // component: RepoListComponent,
     children: [
       {path: '', component: RepoListComponent},
       {path: ':user', component: RepoListComponent,
