@@ -2,9 +2,10 @@
 <div class="panel panel-default">
     <div class="panel-heading">{{ repoDetails.full_name }}</div>
     <div class="panel-body">
+
         {{repoDetails.description}}
     </div>
-    <div class="panel-footer">Panel footer</div>
+     <div class="panel-footer"><span class="badge">Watchers {{repoDetails.watchers}}</span> <span class="badge">Stars {{repoDetails.stargazers_count}}</span> <a class="badge" href="{{repoDetails.html_url}}" target="_blank">Repo <i class="material-icons">open_in_new</i> </a></div>
 </div>
 
 
