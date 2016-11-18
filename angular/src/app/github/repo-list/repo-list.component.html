@@ -1,18 +1,11 @@
 <div class="row">
-    <h1>My code</h1>
-    <p>Some of the solutions I've made is publicly shared on Github. Here are my repositories.</p>
+    <div class="col-md-12">
+        <h1>My code</h1>
+        <p>Some of the solutions I've made is publicly shared on Github. Here are my repositories.</p>
+    </div>
 </div>
 <div class="row">
     <div class="col-md-4">
-        <!--<ul class="list-unstyled">
-            <li *ngFor="let repo of repos | async">
-            <i class="material-icons">code</i> 
-            <a [routerLink]="['/code', repo.owner.login, repo.name]">
-                {{ repo.name }}
-            </a>
-            <span class="description block">{{ repo.description }}</span>
-            </li>
-        </ul>-->
         <div class="list-group">
             <a *ngFor="let repo of repos | async" class="list-group-item" [routerLink]="['/code',repo.owner.login,repo.name]" [routerLinkActive]="['active']">
                 <i class="material-icons">code</i>  

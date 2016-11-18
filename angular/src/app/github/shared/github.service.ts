@@ -22,8 +22,10 @@ export class GithubService {
   }
 
   /** Get repos for user */
+  /* sorted by repo that was last pushed to */
+  /* you can sort it by other parameters */
   getReposForUser(user: string) {
-    return this.makeRequest(`users/${user}/repos`);
+    return this.makeRequest(`users/${user}/repos?sort=pushed`);
   }
 
   /** Get Repo for Org */
