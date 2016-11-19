@@ -13,7 +13,7 @@ export class GithubService {
   
   /** Get the user */
   getUser(user: string) {
-    return this.makeRequest(`user/${user}`);
+    return this.makeRequest(`users/${user}`);
   }
 
   /** get Repos for org */
