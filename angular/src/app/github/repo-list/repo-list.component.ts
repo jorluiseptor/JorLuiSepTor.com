@@ -11,7 +11,7 @@ import {ActivatedRoute} from '@angular/router';
 export class RepoListComponent implements OnInit {
   user: string;
   repos: Observable<any>;
-  public userProfile: any = {foo:"bar"};
+  userProfile: any = {};
 
   constructor(public github: GithubService, private route: ActivatedRoute) {
   }
@@ -21,7 +21,11 @@ export class RepoListComponent implements OnInit {
       this.user = params['user'];
       if (this.user) {
         this.repos        = this.github.getReposForUser(this.user);
-        this.userProfile  = this.github.getUser(this.user);
+        
+        this.github.getUser(this.user)
+                            .subscribe(userProfile =>{
+                              this.userProfile = userProfile;
+                            });
       }
     });
   }
