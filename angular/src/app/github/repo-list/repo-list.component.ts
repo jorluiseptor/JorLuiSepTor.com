@@ -22,6 +22,7 @@ export class RepoListComponent implements OnInit {
       if (this.user) {
         this.repos        = this.github.getReposForUser(this.user);
         
+        //call web service and assign the response to the variable
         this.github.getUser(this.user)
                             .subscribe(userProfile =>{
                               this.userProfile = userProfile;
