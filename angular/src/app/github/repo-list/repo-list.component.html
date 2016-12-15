@@ -24,12 +24,12 @@
 </div>
 <div class="row">
     <div class="col-md-4">
-        <div class="list-group">
-            <a *ngFor="let repo of repos | async" class="list-group-item" [routerLink]="['/code',repo.owner.login,repo.name]" [routerLinkActive]="['active']">
-                <i class="material-icons">code</i>  
+        <!--<div class="list-group">-->
+             <a *ngFor="let repo of repos | async" class="badge" [routerLink]="['/code',repo.owner.login,repo.name]" [routerLinkActive]="['active']">
+                <!--<i class="material-icons">code</i>  -->
                 {{repo.name}}
-            </a>
-        </div>
+            </a> 
+        <!--</div>-->
     </div>
     <div class="col-md-8" >
         <router-outlet></router-outlet>

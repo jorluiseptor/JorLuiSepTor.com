@@ -1,5 +1,7 @@
 body {
     padding-top: 50px;
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
 }
 html {
        overflow-y: scroll;
@@ -21,3 +23,4 @@ html {
 h1 {
     font-size: 36px;
 }
+
