@@ -2,9 +2,6 @@
     <div class="col-md-12">
         <h1>My code</h1>
         <p>I enjoy building software. Some of the solutions I've made is publicly shared on Github. Here are my repositories.</p>
-        <p>
-            <img src="{{userProfile.avatar_url}}" alt="Jorge on Github" class="img-circle avatar">
-        </p>
         <ul class="list-inline">
             <li>
                 Followers <span class="badge">{{userProfile.followers}}</span>
@@ -22,7 +19,7 @@
         <p>
             <a href="{{userProfile.html_url}}" class="btn btn-default" target="_blank">View my Github profile.</a>
         </p>
-        <pre>{{userProfile | json }}</pre>
+        <!--<pre>{{userProfile | json }}</pre>-->
     </div>
 </div>
 <div class="row">
