@@ -1,0 +1,12 @@
+#gh-repositories {
+    list-style: none;
+    .repo { 
+        border:1px solid;
+        margin:1em;
+        padding: 1em;
+    }
+    .repo-name, .repo-description {
+        display: block;
+
+    }
+}
