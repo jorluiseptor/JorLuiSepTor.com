@@ -1,14 +1,25 @@
-<nav>
-  <ul>
-    <li><a routerLink="">Home</a></li>
-    <li><a routerLink="about">About</a></li>
-    <li><a routerLink="social">Social</a></li>
-  </ul>
+<div id="banner"></div>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" routerLink="">Jorge Sepúlveda</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">      
+        <a class="nav-item nav-link" routerLink="about">About</a>
+        <a class="nav-item nav-link" routerLink="projects">Projects</a>
+      </div>
+    </div>
+  </div>
 </nav>
 
+<div class="container">  
+  <div class="row">
+    <div class="col pt-2">
 
-<h1>{{title}}</h1>
-
-<router-outlet></router-outlet>
-
-<app-github></app-github>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

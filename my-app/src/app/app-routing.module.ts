@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { SocialComponent } from './social/social.component';
+import { GithubComponent } from './github/github.component';
 
 //Here you specify the routes and any route parameters if needed.
 const routes: Routes = [
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path:'social',
     component: SocialComponent
+  },
+  {
+    path:'projects',
+    component: GithubComponent
   }
 ];
 
