@@ -2,6 +2,15 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
+
+
+
+
+export interface GHProfile {
+  login: string;
+}
+
+
 @Injectable()
 export class GithubService {
   
@@ -13,13 +22,11 @@ export class GithubService {
 
 
   //get github account info
-  getProfile(): Observable<object>{
-    return this.http.get(this._profileUrl)
+  getProfile(): Observable<GHProfile>{
+    return this.http.get<GHProfile>(this._profileUrl)
   }
   //get my public repositories
   getRepos(): Observable<object>{
     return this.http.get(this._reposUrl);
   };
-
-
 }

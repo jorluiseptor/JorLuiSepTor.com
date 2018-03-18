@@ -1,25 +1,28 @@
-<h2 class="display-2">My source code <small>on Github</small></h2>
-<p class="lead">Some of my source code is shared on Github</p>
-<p>
-  <i class="icon ion-social-github"></i> <a href="https://github.com/{{ghProfile.login}}" target="_blank">github.com/{{ghProfile.login}}</a> // 
-  public <abbr title="repositories">repos</abbr>: {{ghProfile.public_repos}} // 
-  public gists: {{ghProfile.public_gists}} // 
-  followers: {{ghProfile.followers}} // 
-  following: {{ghProfile.following}}
-</p>
+<div class="col-sm-12">
 
-<div class="card-columns">
-  <div class="card " *ngFor="let repo of ghRepositories">
-    <div class="card-body">
-      <p class="card-title">
-        <strong>
-          <i class="icon ion-social-github"></i> {{repo.name}}
-        </strong>
-      </p>
-      <p class="card-text small">{{repo.description}}</p>
-      
-      <a  href="{{repo.html_url}}" target="_blank"  class="card-link">Code</a>
-
-    </div>
+  
+  <h2 class="display-2">My source code <small>on Github</small></h2>
+  <p class="lead">Some of my source code is shared on Github</p>
+  
+  
+  <p>
+    <i class="icon ion-social-github"></i> <a href="https://github.com/{{ghProfile.login}}" target="_blank">github.com/{{ghProfile.login}}</a> // 
+    public <abbr title="repositories">repos</abbr>: {{ghProfile.public_repos}} // 
+    public gists: {{ghProfile.public_gists}} // 
+    followers: {{ghProfile.followers}} // 
+    following: {{ghProfile.following}}
+  </p>
+  
+  <div class="card-columns">
+    <a class="card " *ngFor="let repo of ghRepositories" href="{{repo.html_url}}" target="_blank">
+      <div class="card-body">
+        <p class="card-title">
+          <strong>
+            <i class="icon ion-social-github"></i> {{repo.name}}
+          </strong>
+        </p>
+        <p class="card-text small" *ngIf="repo.description">{{repo.description}}</p>        
+      </div>
+    </a>
   </div>
 </div>

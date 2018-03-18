@@ -1,6 +1,17 @@
+
 #banner {
-    height:90vh;
+    height:100vh;
     background-image: url('/assets/images/background.jpg');
     background-size: cover;
     background-position: right;
+    position: relative;
+
+    #intro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffffbf;
+        padding: 1em;
+    }
 }

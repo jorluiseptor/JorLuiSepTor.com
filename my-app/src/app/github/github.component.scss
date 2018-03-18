@@ -11,3 +11,14 @@
 
     }
 }
+
+a:hover.card {
+    background-color: red;
+}
+
+a:hover.card,
+a:link.card,
+a:visited.card {
+    text-decoration: none;
+    color: inherit;
+}
