@@ -10,6 +10,7 @@ import { SocialComponent } from './social/social.component';
 import { TwitterService } from './social/twitter.service';
 import { GithubComponent } from './github/github.component';
 import { GithubService } from './github/github.service';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -19,7 +20,8 @@ import { GithubService } from './github/github.service';
     HomeComponent,
     AboutComponent,
     SocialComponent,
-    GithubComponent
+    GithubComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
