@@ -5,9 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { SocialComponent } from './social/social.component';
-import { TwitterService } from './social/twitter.service';
 import { GithubComponent } from './github/github.component';
 import { GithubService } from './github/github.service';
 import { ProjectsComponent } from './projects/projects.component';
@@ -18,8 +15,6 @@ import { ProjectsComponent } from './projects/projects.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
-    SocialComponent,
     GithubComponent,
     ProjectsComponent
   ],
@@ -28,7 +23,7 @@ import { ProjectsComponent } from './projects/projects.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [GithubService,TwitterService],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

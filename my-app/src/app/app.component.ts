@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: [
-    './app.component.scss'
+    './app.component.scss',
+    '../assets/css/ionicons.min.css'
   ]
 })
 export class AppComponent {
