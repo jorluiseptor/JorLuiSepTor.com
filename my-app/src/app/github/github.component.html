@@ -1,9 +1,7 @@
-<div class="row">
 
-  <div class="col-sm-12">
     
     
-    <h2 class="display-4">My source code <small>on Github</small></h2>
+    <h2 class=" ">My source code <small>on Github</small></h2>
     <p class="lead">Some of my source code is shared on Github</p>
     
     
@@ -14,7 +12,7 @@
       followers: {{ghProfile.followers}} // 
       following: {{ghProfile.following}}
     </p>
-    
+
     <div class="card-columns">
       <a class="card " *ngFor="let repo of ghRepositories" href="{{repo.html_url}}" target="_blank">
         <div class="card-body">
@@ -27,5 +25,3 @@
         </div>
       </a>
     </div>
-  </div>
-</div>
