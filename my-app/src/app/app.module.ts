@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { GithubComponent } from './github/github.component';
 import { GithubService } from './github/github.service';
 import { ProjectsComponent } from './projects/projects.component';
+import { SocialComponent } from './social/social.component';
 
 
 
@@ -16,6 +17,7 @@ import { ProjectsComponent } from './projects/projects.component';
     AppComponent,
     HomeComponent,
     GithubComponent,
+    SocialComponent,
     ProjectsComponent
   ],
   imports: [

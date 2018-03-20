@@ -15,3 +15,15 @@
         padding: 1em;
     }
 }
+
+footer {
+    border-top: 1px solid rgba(0,0,0,.125);
+    .social {
+        display: flex;
+        flex: initial;
+        justify-content: center;
+        a {
+            margin: 1em;
+        }
+    }
+}
