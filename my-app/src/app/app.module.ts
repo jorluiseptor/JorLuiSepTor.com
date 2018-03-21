@@ -28,4 +28,4 @@ import { SocialComponent } from './social/social.component';
   providers: [GithubService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
