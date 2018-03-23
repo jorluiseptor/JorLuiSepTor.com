@@ -9,7 +9,7 @@ import { GithubService } from './github.service';
 export class GithubComponent implements OnInit {
 
   public ghProfile = {}; //profile object
-  public ghRepositories = [{}]; //array of my github repositories
+  public ghRepositories = []; //array of my github repository objects
   
   constructor(private _githubService: GithubService) { }
   
@@ -22,5 +22,5 @@ export class GithubComponent implements OnInit {
     this._githubService.getProfile().subscribe(data => this.ghProfile = data);
 
   }//ngOnInit
-
+ 
 }
