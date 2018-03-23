@@ -13,8 +13,8 @@ export class AppComponent {
 
   //available banner backgrounds
   bannerBackgrounds: string[] = [
-    '/assets/images/background.jpg',
-    '/assets/images/background2.jpg'
+    'assets/images/background.jpg',
+    'assets/images/background2.jpg'
   ]
   //randomizes the array and selects one.
   randomBackground: string = this.bannerBackgrounds[Math.floor(Math.random() * this.bannerBackgrounds.length)];
