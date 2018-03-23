@@ -8,7 +8,13 @@ import { GithubService } from './github.service';
 })
 export class GithubComponent implements OnInit {
 
-  public ghProfile = {}; //profile object
+  public ghProfile = {
+    login:"",
+    public_repos:null,
+    public_gists:null,
+    followers:null,
+    following:null
+  }; //profile object
   public ghRepositories = []; //array of my github repository objects
   
   constructor(private _githubService: GithubService) { }
