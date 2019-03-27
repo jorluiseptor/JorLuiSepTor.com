@@ -1,11 +1,5 @@
 $(document).ready(function () {
 
-	//turns on the background image
-	
-		//get random image
-		var images = ['background1.jpg'];
-		var selectedimg = images[Math.floor(Math.random() * images.length)];
-		$.backstretch("img/" + selectedimg);
 
 	//loaded page
 	var loadedpage;
@@ -29,21 +23,6 @@ $(document).ready(function () {
 			//keep track of loaded page
 			loadedpage = page;
 		}
-	});
-	
-	
-	//activate fancybox
-	$("a.group, a.fancybox").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false,
-		    helpers : {
-				title: {
-					type: 'outside'
-				}
-			}
 	});
 	
 
