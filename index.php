@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+		<link rel="stylesheet" href="/css/style.css" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
@@ -19,13 +19,14 @@
 	<meta property="og:description" content="Jorge is a photographer, information technology specialist, self-proclaimed computer geek, and fan of the arts. Some of his passions are technology, visual arts, music, programming, Internet, online gaming, philosophy, science, and interesting." />
     <title>Jorge Sepúlveda</title>
     
-	<link rel="stylesheet" href="css/style.css" />
+
   </head>
   <body>
+		<div class="live-background"></div>
   
 	<div class="container">	
 		<div class="row">
-			<div class="col-md-3"  ata-spy="affix" data-offset-top="200">
+			<div class="col-md-3 expand"  ata-spy="affix" data-offset-top="200">
 				<div class="nav-column">
 					<h1>Jorge Sepúlveda</h1>
 					<ul class="nav nav-pills nav-stacked">
@@ -52,8 +53,6 @@
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/libs.js"></script>
 	<script src="js/main.js" type="text/javascript"></script> 
   </body>
 </html>

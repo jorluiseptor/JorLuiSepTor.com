@@ -24,4 +24,47 @@
   .close:after {
     transform: rotate(-45deg);
   }
-  
+body {
+
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(238,244,15,1) 0%, rgba(255,0,0,1) 100%);
+}
+.live-background{
+    position: absolute;
+    // z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(225deg, rgba(238,244,15,1) 0%, rgba(255,0,0,1) 100%);
+    animation-name: live-background;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.expand {
+    transform: scale(0);
+    animation-name: expand;
+    animation-duration: 500ms;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes live-background {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes expand {
+    0%{
+        transform:scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;;
+    }
+}
