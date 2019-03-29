@@ -13,6 +13,7 @@
             <p>Information Technologist, Web Developer, Professor, Art and Photograph Enthusiast, Gamer, and Jedi</p>
         </div>
     </div>
+    <?php include('includes/nav.php'); ?>
 	<div class="container">	
 		<div class="row">
 			<div class="col-md-3 expand"  ata-spy="affix" data-offset-top="200">
